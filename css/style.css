@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 2rem auto;
+    text-align: center;
+    width: 75%;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+#shoppingListItem{
+    border-width: 0;
+    border-bottom: 1px solid red;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+#addItem{
+    background-color: brown;
+    border: none;
+    border-radius: 50%;
+    color: antiquewhite;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.shoppingList{
+    margin-top: 1.5rem;
+}
+
+.li-styling{
+    font-size: 1.3rem;
+    list-style: none;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
